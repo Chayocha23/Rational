@@ -146,7 +146,7 @@ class Rational {
     public String toString() { 
         // to be completed
         simplestForm();
-        return ""; // TODO: This needs to be modified.
+        return numerator + "/" + denominator; // TODO: This needs to be modified.
     }
 
     public static void main(String[] args) {

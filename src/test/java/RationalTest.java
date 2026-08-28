@@ -95,7 +95,6 @@ public class RationalTest {
         Rational r = new Rational();
         r.numerator = 3;
         r.denominator = 6;
-
         // หลังทอนเป็นอย่างต่ำ 3/6 จะกลายเป็น "1/2"
         Assert.assertEquals("1/2", r.toString());
     }
